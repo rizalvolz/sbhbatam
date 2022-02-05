@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+html, body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  scroll-behavior: smooth;
+}
+
+header {
+  display: inline;
+}
+
+nav {
+  background-color: #2ecc71;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+a {
+  list-style-type: none;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  font-weight: bold;
+  color: #2980b9
+}
+
+nav li {
+  display: inline;
+  margin-left: 5px;
+}
+
+.article p {
+  font-size: small;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin: 2em;
+  font-family: sans-serif;
+}
+
+h2, h3 {
+  color: #2980b9
+}
+
+.profile header {
+  text-align: center;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #27ae60;
+  text-align: center;
+  font-weight: bold;
+}
+
+.uk-gambar {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.uk-gambar1 {
+  width: 80%;
+  max-height: 400px;
+  object-fit: cover;
+  padding-left: 250px;
+}
+
+.profile figure img {
+  width: 200px;
+  border-radius:100px;
+}
+
+.profile img {
+  width: 50px;
+  border-radius:30px;
+}
+
+.kotak {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+.atasan {
+  background-color: #27ae60;
+}
+
+.atasan-nama {
+  font-size: 20px;
+  padding: 1px;
+  background-color: #27ae60;
+  text-align: center;
+  color: white;
+}
+
+#content {
+  float: left;
+  width: 75%;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+      width: 100%;
+      padding: 0;
+  }
+}
+
+form {
+    width: 500px;
+    margin: 50px auto;
+}
+
+.cari {
+    padding: 15px 40px;
+    background: #fff;
+    border: 2px solid #27ae60;
+    font-family: sans-serif;
+}
+
+.temukan {
+    padding: 15px 20px;
+    left: -8px;
+    border: 2px solid #27ae60;
+    background-color: #53bd84;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.temukan: hover  {
+    background-color: #2ecc71;
+    color: #fff;
+    border: 2px solid #27ae60;
+}
+
+table {
+  text-align: left;
+}
+
+.naik {
+  width: 50px; 
+  height: 50px; 
+  position: fixed; 
+  bottom: 50px; 
+  right: 50px; 
+  cursor: pointer; 
+  transition: all .5s; 
+}
+
+.muncul li {
+  display: inline-block;
+}
+ 
+.muncul:hover .isi {
+  display: block;
+}
+ 
+.isi a:hover {
+  color: #fff;
+}
+ 
+.isi {
+  position: absolute;
+  display: none;
+  margin-left: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  z-index: 1;
+  background-color: #2ecc71;
+}
+ 
+.isi a {
+  color: #fff;
+}
+ 
+.isi a:hover {
+  color: #2980b9;
+}
+
+#timer > div {
+  border-radius: 10px;
+  background:#27ae60;
+  padding: 20px 20px 10px 20px;
+  color: #fff;
+  display: inline-block;
+}
+
+#timer > div > p {
+  font-size: 16px;
+}
+
+tr a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+tr a:hover {
+  font-weight: bold;
+  color: #2980b9
+}
